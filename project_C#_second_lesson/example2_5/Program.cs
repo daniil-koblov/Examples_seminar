@@ -18,14 +18,3 @@ else
     Console.WriteLine($"Число {num2}  не является квадратом числа {num1}");
 }
 
-
-
-// if (num2 * num2 == num1)
-// {
-//     Console.WriteLine($"Число {num1} является квадратом числа {num2}");  
-// }
-// else
-// {
-//     Console.WriteLine($"Число {num1}  не является квадратом числа {num2}");
-// }
-
