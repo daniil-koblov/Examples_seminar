@@ -1,5 +1,9 @@
 ﻿Console.Clear();
 
+Console.WriteLine("Введите число А: ");
+int A = Convert.ToInt32(Console.ReadLine());
+Mult(A);
+
 void Mult(int a)
 {
     if(a > 0)
@@ -23,7 +27,5 @@ void Mult(int a)
    
 }       
 
-Console.WriteLine("Введите целое число А: ");
-int A = Convert.ToInt32(Console.ReadLine());
-Mult(A);
+
 
