@@ -1,12 +1,8 @@
 ﻿Console.Clear();
 
-Console.WriteLine("Введите число А: ");
-int A = Convert.ToInt32(Console.ReadLine());
-Mult(A);
-
 void Mult(int a)
 {
-    if(a > 0)
+    if(a >= 0)
     {
         int sum = 1;
         for(int i = 1; i <= a; i++)
@@ -15,11 +11,6 @@ void Mult(int a)
         }
         Console.WriteLine(sum);
     }
-    else if(a == 0)
-    {
-        a = 1;
-        Console.WriteLine(a);
-    }
     else
     {
         Console.WriteLine("Вы ввели число неверно");
@@ -27,5 +18,6 @@ void Mult(int a)
    
 }       
 
-
-
+Console.WriteLine("Введите целое число А: ");
+int A = Convert.ToInt32(Console.ReadLine());
+Mult(A);
