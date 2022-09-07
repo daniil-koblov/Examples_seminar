@@ -13,10 +13,10 @@ void FillArray(int[] a)
 }
 void ReplaceArray(int[] a)
 {
-    for(int I = 0; I < a.Length; I++)
+    for(int i = 0; i < a.Length; i++)
     {
-        a[I] *= -1;
-        Console.Write($"{a[I]} ");
+        a[i] *= -1;
+        Console.Write($"{a[i]} ");
     }
     Console.WriteLine();
 }
