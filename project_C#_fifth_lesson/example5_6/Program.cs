@@ -10,8 +10,20 @@ void FillArray(int[] a)
         Console.Write($"{a[i]} ");
     }
     Console.WriteLine();
-    for(int i = 0; i < a.Length / 2; i++)
-    Console.Write($"{a[i] * a[a.Length - i - 1]} ");
+    if(a.Length % 2 == 0)
+    {
+        for(int i = 0; i < a.Length / 2; i++)
+        Console.Write($"{a[i] * a[a.Length - i - 1]} ");
+    }
+    else
+    {
+        for(int i = 0; i <= a.Length / 2; i++)
+        {
+            if(i < a.Length / 2) a[i] = a[i] * a[a.Length - i - 1];
+            else a[i] += 0;
+            Console.Write($"{a[i]} ");
+        }
+    }
     Console.WriteLine();
 }
 Console.WriteLine("Введите длинну массива");
