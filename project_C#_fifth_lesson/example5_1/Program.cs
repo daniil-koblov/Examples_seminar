@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.Clear();
 
-string str1 = "Hello";
-string str2 = "world";
+// string str1 = "Hello";
+// string str2 = "world";
 
 // string str3 = string.Concat(str1, str2, "####");
 
