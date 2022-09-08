@@ -14,7 +14,6 @@ void FillArray(int[] a)
     Console.Write($"{a[i] * a[a.Length - i - 1]} ");
     Console.WriteLine();
 }
-
 Console.WriteLine("Введите длинну массива");
 int len = Convert.ToInt32(Console.ReadLine());
 int[] array = new int [len];
