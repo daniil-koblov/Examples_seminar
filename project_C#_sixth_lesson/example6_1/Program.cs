@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Задача на разворот массива
 Console.Clear();
 /* int [,] arr = new int [3,4];
 
