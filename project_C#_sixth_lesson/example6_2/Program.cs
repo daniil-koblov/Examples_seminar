@@ -3,7 +3,7 @@ Console.Clear();
 
 void Triangle(int a, int b, int c)
 {
-    if(a <= b + c && b <= a + c && c <= a + b) Console.WriteLine($"Треугольник со сторонами {a} {b} {c} существует");
+    if(a < b + c && b < a + c && c < a + b) Console.WriteLine($"Треугольник со сторонами {a} {b} {c} существует");
     else Console.WriteLine($"Треугольник со сторонами {a} {b} {c} не существует");
 }
 
